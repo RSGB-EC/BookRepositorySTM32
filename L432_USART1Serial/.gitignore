@@ -1,1 +1,27 @@
-/Debug/
+# --- Build output ---
+Debug/
+Release/
+build/
+*/Debug/
+*/Release/
+
+# --- Eclipse / STM32CubeIDE ---
+.metadata/
+.settings/
+*.launch
+*.log
+
+# Eclipse CDT generated
+.cproject
+.project
+
+# --- Misc ---
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- CubeMX generated backups ---
+*.ioc.bak
